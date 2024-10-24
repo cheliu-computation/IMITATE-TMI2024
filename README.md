@@ -32,6 +32,6 @@ torchrun --nnodes=1 --nproc_per_node=2 main.py
 ### Finetune on downstream tasks
 We evlauate the performance of IMITATE on four downstream tasks: image classification, object detection, semantic segmentation and image-text retrieval tasks. 
 
-For image-text retrieval task, we follow [GLoRIA-ICCV2021](https://github.com/LalehSeyyed/CheXclusion](https://github.com/marshuang80/gloria)), please follow their offical code to extract data and implement Image-Text Retrieval tasks.
+For image-text retrieval task, we follow [GLoRIA-ICCV2021](https://github.com/marshuang80/gloria), please follow their offical code to extract data and implement Image-Text Retrieval tasks.
 
 For image classification, semantic segmentation and object detection, we follow [MGCA-NeurIPS2022](https://github.com/HKU-MedAI/MGCA) offical configuration and code. The dataset can be found in MGCA repository.
