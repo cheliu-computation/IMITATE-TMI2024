@@ -22,7 +22,7 @@ Datasets we used are as follows:
 - Then, run 'ext_data.py' to extract all scans and save as a npy file. It will accelerate the pre-training stage.
 
 ### Pre-training
-We pre-trained MGCA on MIMIC-CXR using this command:
+We pre-trained IMITATE on MIMIC-CXR using this command:
 ```
 
 cd /IMITATE-TMI2024/pretrain
