@@ -11,7 +11,7 @@ To install Python dependencies:
 ```
 pip install -r requirements.txt
 ```
-All experiments are implemented on A100 GPU.
+All experiments are implemented on 8 A100 GPUs.
 
 ### Pre-train Dataset downloading
 Datasets we used are as follows:
